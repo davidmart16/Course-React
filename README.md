@@ -1,1 +1,1 @@
-# Curse-React
+# Course-React
