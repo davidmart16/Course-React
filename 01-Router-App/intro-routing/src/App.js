@@ -9,15 +9,9 @@ function App() {
     <div>
     <MainNavigation/>
     <Routes>
-      <Route exact={true} path='/'>
-        <AllMeetupsPage/>
-      </Route>
-      <Route path='/new-meetup'>
-        <NewMeetupPage/>
-      </Route>
-      <Route path='/favorites'>
-        <FavoritesPage/>
-      </Route>
+      <Route exact path='/' element={<AllMeetupsPage />} />
+      <Route path='/new-meetup' element={<NewMeetupPage />} />
+      <Route path='/favorites' element={<FavoritesPage />} />
     </Routes>
     </div> 
   );
